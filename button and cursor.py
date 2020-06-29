@@ -1,0 +1,15 @@
+from tkinter import *
+r=Tk()
+r.configure(background="orange")
+label1=Button(r,text="mango",relief=FLAT,cursor="dot")
+label2=Button(r,text="apple",relief=GROOVE,cursor="watch")
+label3=Button(r,text="orange",relief=SUNKEN,cursor="mouse")
+label4=Button(r,text="banana",relief=RIDGE,cursor="star")
+label5=Button(r,text="pineapple",relief=RAISED,cursor="exchange")
+
+label1.pack()
+label2.pack()
+label3.pack()
+label4.pack()
+label5.pack()
+r.mainloop()
