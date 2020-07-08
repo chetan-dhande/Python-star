@@ -1,0 +1,12 @@
+from tkinter import *
+r=Tk()
+lbl1=Label(r,text="User Name :")
+e1=Entry(r)
+lbl2=Label(r,text="Password :")
+e2=Entry(r,show="*")
+lbl3=Label(r,text="Confirm Password :")
+e3=Entry(r,state=DISABLED)
+e1.pack()
+e2.pack()
+e3.pack()
+r.mainloop()
