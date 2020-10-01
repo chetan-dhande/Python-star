@@ -20,7 +20,7 @@ Y = array[:,13]
 
 
 dataframe.shape
-
+dataframe.info()
 dataframe.describe()
 dataframe.isnull().any()
 dataframe = dataframe.fillna(method='ffill')
