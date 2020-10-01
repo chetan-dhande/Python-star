@@ -1,4 +1,5 @@
 # Voting Ensemble for Classification
+import pandas as pd
 from pandas import read_csv
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
